@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Prata&family=Roboto+Condensed&display=swap');
+
+.container{
+    background-image: url(assets/sfondo.png)
+}
+header div{
+    background-color: blue;
+}
+
+.head{
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+#head-list{
+    list-style-type: none;
+}
+
+img{
+    margin-top: 20px;
+}
+
+
+#testa{
+    width: 450px;
+    margin: 10% 22px;
+    /* border-radius: 20px; */
+    background-image: linear-gradient(30deg, #066e88, #009ec4);
+    height: 350px;
+}
+
+.fas{
+    margin: 0 3px;
+}
+
+h1{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+main{
+    background-color: yellow;
+    width: 450px;
+    margin: 10% 22px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fas fa-pen .far fa-clock{
+    margin-right: 5px;
+}
+
+.autore{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style-type: circle;
+    margin-left: 25px;
+}
+
+ol{
+    padding-left: 2em;
+list-style-type: decimal;
+}
+
+caption{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+tr{
+    border-collapse: collapse;
+    border: 3px solid black; 
+    text-align: center;
+    height: 50px;
+  
+}
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+iframe{
+    width: 100%;
+    height: 15em;
+}
+
+.novita{
+    margin-bottom: 20px;
+    width: 400px;
+    background-color: lightblue;
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 20px;
+}
+
+#input{
+    padding-top: 60px;
+}
