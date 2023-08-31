@@ -2,7 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Prata&family=Roboto+Condensed&display=swap');
 
 .container{
-    background-image: url(assets/sfondo.png)
+    background-image: url(../assets/sfondo.png)
+}
+
+header{
+    text-align: center;
 }
 header div{
     background-color: blue;
@@ -22,15 +26,16 @@ header div{
 
 img{
     margin-top: 20px;
+    width: 70%;
 }
 
 
 #testa{
-    width: 450px;
-    margin: 10% 22px;
+    width: 400px;
+    margin: 10% 50px;
     /* border-radius: 20px; */
     background-image: linear-gradient(30deg, #066e88, #009ec4);
-    height: 350px;
+    height: 300px;
 }
 
 .fas{
@@ -44,13 +49,14 @@ h1{
 }
 
 main{
-    background-color: yellow;
-    width: 450px;
-    margin: 10% 22px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 10% 50px;
     padding: 20px 20px;
     box-sizing: border-box;
     color: black;
     font-family: 'Poppins', sans-serif;
+    box-shadow: 4px 4px 4px 4px #666 ;
 }
 
 .fas fa-pen .far fa-clock{
@@ -62,7 +68,7 @@ main{
     margin-bottom: 20px;
 }
 
-ul li{
+.lista{
     list-style-type: circle;
     margin-left: 25px;
 }
@@ -95,6 +101,7 @@ tr{
 th{
     background-color: blue;
     color: white;
+    padding-top: 15px;
 }
 
 tr:nth-child(odd){
@@ -108,7 +115,6 @@ iframe{
 
 .novita{
     margin-bottom: 20px;
-    width: 400px;
     background-color: lightblue;
     margin-top: 20px;
     text-align: center;
